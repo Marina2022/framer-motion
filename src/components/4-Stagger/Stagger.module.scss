@@ -1,0 +1,28 @@
+.leftPanel {
+  max-width: 250px;
+  margin-top: 40px;
+  background-color: darkslategrey;
+  color: white;  
+  transform-origin: left center;
+  
+}
+
+.toggle {  
+  margin-bottom: 20px;  
+}
+
+.staggerTwo {
+  width: 300px;
+  height: 300px;  
+  margin-left: 500px;  
+}
+
+.itemTwo {
+  border-bottom: darkgray 1px solid;
+  padding: 20px;
+  background-color: gainsboro;
+  
+  &:last-child {
+    border: none;
+  }
+}

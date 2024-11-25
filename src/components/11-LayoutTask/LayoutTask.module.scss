@@ -1,0 +1,56 @@
+.megaWrapper {
+  position: relative;
+  height: 400px;
+  background-color: rosybrown;
+}
+
+.wrapper {
+  background-color: white;
+  margin-top: 50px;
+  align-items: center;  
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  max-width: 400px;
+  //height: 400px;
+  overflow: hidden;
+
+  @media (max-width: 600px) {
+    left: 10px;
+  }
+}
+
+.list {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  gap: 20px;
+  background-color: white;
+  padding-bottom: 80px;
+  padding-left: 90px;
+}
+
+.item {
+  padding-block: 10px;
+}
+
+.btn {
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: none;
+  width: 81px;
+}
+
+.additionalWrapper {
+  display: flex;
+  width: 400px;
+  
+  justify-content: center;
+  
+  @media (max-width: 600px) {
+    width: 300px;
+  }
+  
+}

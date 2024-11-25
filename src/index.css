@@ -1,0 +1,56 @@
+.container {
+    max-width: 1024px;
+    margin: 0 auto;    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+body {
+    font-family: Montserrat;
+    font-size: 16px;
+    position: relative;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+button, a {
+    color: inherit;
+    border: none;
+    outline: none;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button {
+    border-radius: 10px;
+    margin-top: 40px;
+    background: deepskyblue;
+    padding: 10px 20px;
+    color: green;
+    box-shadow: 5px 5px 5px darkblue;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}
+
+.homeLinkDiv {
+    padding-block: 30px;
+    color: dodgerblue;
+}
+
+body {
+    --xpos: 10px;
+}

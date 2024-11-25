@@ -1,0 +1,38 @@
+.spacer {
+  height: 100vh;
+}
+
+.spacerMini {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.motionDiv {
+  background-color: orange;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.item {
+  width: 100%;
+  background-color: yellowgreen;
+  border-radius: 12px;
+  height: 100px;
+  display: flex;
+  align-items: center;  
+  justify-content: center;
+}
+
+.notMotionDiv {
+  border-radius: 12px;
+  border: orange 2px solid;
+  padding: 20px;
+}

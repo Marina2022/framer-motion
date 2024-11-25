@@ -1,0 +1,14 @@
+.drawer {
+  position: absolute;
+  left: 0;
+  top: 400px;
+  width: 300px;
+  height: calc(300px);
+  background-color: #aafafa;
+  
+  transform: translateX(var(--xxx));
+  
+  @media screen and (max-width: 1000px) {
+    transform: translateY(var(--yyy));
+  }
+}

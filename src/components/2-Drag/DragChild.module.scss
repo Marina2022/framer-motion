@@ -1,0 +1,7 @@
+.childDiv {
+  border: 1px solid blueviolet;
+  padding: 10px 20px;
+  width: 150px;
+  margin-top: var(--xpos);
+  transform: translateX(var(--xpos));
+}

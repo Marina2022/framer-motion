@@ -1,0 +1,60 @@
+.stickyContainer {
+  //background-color: gainsboro;
+  padding: 20px;
+  margin-top: 20px;
+  position: relative;
+  height: 1600px;
+}
+
+
+
+.stickyDiv {
+  width: 200px;
+  height: 100px;
+  border-radius: 12px;
+  //background-color: darkred;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: sticky;
+  top: 300px;
+}
+
+
+.scrollable {
+  overflow: auto;
+  height: 800px;
+  //background-color: lightyellow;
+  position: relative;
+  scrollbar-width: none; /* Firefox */
+
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+}
+
+.spacerMini {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.fixed {
+  position: fixed;
+  top: 10xp;
+  padding: 10px;
+  //background-color: #aafafa;
+  z-index: 1;  
+}
+
+
+.innerAnime {
+  width: 50px;
+  height: 50px;
+  background-color: pink;
+}
+
+
+

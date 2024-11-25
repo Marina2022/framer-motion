@@ -1,0 +1,44 @@
+.spacer {
+  height: 100vh;
+}
+
+.spacerMini {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background-color: darkblue;
+  color: white;
+  position: relative;
+}
+
+.flexCont {
+  display: flex;
+  gap: 20px;
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+}
+
+.squareMini {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background-color: darkcyan;
+  color: white;
+  position: relative;
+}
+
