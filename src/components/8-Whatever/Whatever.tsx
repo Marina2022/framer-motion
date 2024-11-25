@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react';
+import {useRef, useState} from 'react';
 import {Link} from "react-router-dom";
 import {useMotionValueEvent, useScroll, useTransform, motion} from "framer-motion";
 import s from './Whatever.module.scss'

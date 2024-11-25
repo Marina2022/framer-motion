@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import s from './Layout.module.scss';
 import {Link} from "react-router-dom";
 import {AnimatePresence, motion} from "framer-motion";
@@ -31,7 +31,7 @@ const Layout = () => {
           transition={{ease: "linear"}}
           layout="size" className={s.hehe} style={{flexDirection: large ? 'row' : 'column'}}>
           <motion.div layout className={s.item}>1</motion.div>
-          <motion.div layout="postion" className={s.item}>2</motion.div>
+          <motion.div layout className={s.item}>2</motion.div>
           <motion.div layout className={s.item}>3</motion.div>
           <motion.div layout className={s.item}>4</motion.div>
         </motion.div>

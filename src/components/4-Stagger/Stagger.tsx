@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import s from './Stagger.module.scss';
 import {Link} from "react-router-dom";
 import {motion} from "framer-motion";

@@ -1,9 +1,7 @@
-import React from 'react';
 import s from './Drawer.module.scss';
-import {Link} from "react-router-dom";
 import {AnimatePresence, motion} from "framer-motion";
 
-const Drawer = ({open}) => {
+const Drawer = ({open}:{open: boolean}) => {
   return (
     <AnimatePresence>
       {

@@ -1,13 +1,7 @@
 import s from './Index.module.scss'
 import {Link} from "react-router-dom";
-import Drag from "@/components/2-Drag/Drag.tsx";
-import AnimatePresence from "@/components/3-AnimatePresence/AnimatePresence.tsx";
-import Stagger from "@/components/4-Stagger/Stagger.tsx";
-import ScrollTrigger from "@/components/6-ScrollTrigger/ScrollTrigger.tsx";
-import ScrollScrubbing from "@/components/7-ScrollScrubbing/ScrollScrubbing.tsx";
-import Sticky from "@/components/9-Sticky/Sticky.tsx";
 
-const Index = () => {
+const MyIndex = () => {
   return (
     <>
       <header >
@@ -65,4 +59,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default MyIndex;

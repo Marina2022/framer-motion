@@ -1,9 +1,9 @@
-import React, {forwardRef, useRef, useState} from 'react'
+import {forwardRef, useRef, useState} from 'react'
 import {motion} from "framer-motion";
 import {Link} from "react-router-dom";
 
 
-const MyButton = forwardRef((props, ref) => {
+const MyButton = forwardRef<HTMLButtonElement, React.ButtonHTMLAttributes<HTMLButtonElement>>((props, ref) => {
   return (
     <button ref={ref} {...props} >Привет ээээ</button>
   )
@@ -12,6 +12,7 @@ const MyButton = forwardRef((props, ref) => {
 const AnimatedBtn = motion.create(MyButton)
 const Basics = () => {
 
+  
   const myRef = useRef<HTMLButtonElement | null>(null)
 
   const [shouldAnimate, setShouldAnimate] = useState(true)
@@ -20,7 +21,7 @@ const Basics = () => {
     myRef.current!.style.backgroundColor = "rgb(127, 255, 212);";
   }
 
-  const foo = (e) => {
+  const foo = (e: Event) => {
     console.log(e)
   }
 

@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react';
+import {useRef, useState} from 'react';
 import {Link} from "react-router-dom";
 import s from './Sticky.module.scss';
 import {useMotionValueEvent, useScroll, useTransform, motion } from "framer-motion";

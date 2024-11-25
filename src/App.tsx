@@ -1,8 +1,7 @@
 import './App.css'
 import Basics from "./components/Basics.tsx";
-import React from 'react'
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import Index from "@/pages";
+import Index from "@/pages/MyIndex.tsx";
 import First from "@/components/1-first/First.tsx";
 import Drag from "@/components/2-Drag/Drag.tsx";
 import AnimatePresence1 from "@/components/3-AnimatePresence/AnimatePresence.tsx";

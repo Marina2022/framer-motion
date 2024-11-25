@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import {useRef} from 'react';
 import s from './ScrollTrigger.module.scss';
 import {Link} from "react-router-dom";
 import {motion, useInView} from "framer-motion";
@@ -72,7 +72,7 @@ const ScrollTrigger = () => {
                     x: -30, opacity: 0
                   }
                 }}
-                key={i} className={s.item}>{i + 1}</motion.li>
+                key={i} className={s.item}>{item }</motion.li>
             )
           })
         }

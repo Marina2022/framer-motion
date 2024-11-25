@@ -1,7 +1,6 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 
 import {Link} from "react-router-dom";
-import {motion} from "framer-motion";
 import Drawer from "@/components/5-ResponsiveDraw/Drawer/Drawer.tsx";
 
 const ResponsiveDraw = () => {

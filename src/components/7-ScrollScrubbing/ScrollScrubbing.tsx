@@ -1,4 +1,4 @@
-import React, {useRef, useState} from 'react';
+import {useRef, useState} from 'react';
 import s from './ScrollScrubbing.module.scss';
 import {Link} from "react-router-dom";
 import {motion, useMotionValueEvent, useScroll, useSpring, useTransform} from "framer-motion";
