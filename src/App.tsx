@@ -13,6 +13,8 @@ import Whatever from "@/components/8-Whatever/Whatever.tsx";
 import Sticky from "@/components/9-Sticky/Sticky.tsx";
 import Layout from "@/components/10-Layout/Layout.tsx";
 import LayoutTask from "@/components/11-LayoutTask/LayoutTask.tsx";
+import SharedLayout from "@/components/12-SharedLayout/SharedLayout.tsx";
+import MainSong from "@/components/13-TaskSongPreview/MainSong.tsx";
 
 
 function App() {
@@ -34,6 +36,8 @@ function App() {
         <Route path='/Sticky' element={<Sticky/>}/>
         <Route path='/Layout' element={<Layout/>}/>
         <Route path='/LayoutTask' element={<LayoutTask/>}/>
+        <Route path='/SharedLayout' element={<SharedLayout/>}/>
+        <Route path='/MainSong' element={<MainSong/>}/>
       </Routes>
     </BrowserRouter>
   )

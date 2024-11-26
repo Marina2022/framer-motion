@@ -10,16 +10,15 @@ const LayoutTask = () => {
   const [opened, setOpened] = useState(false)
 
   return (
-    <AnimatePresence>
+    
       <motion.div layout className='container'>
         <motion.div layout className='homeLinkDiv'>
           <Link to="/">Home</Link>
         </motion.div>
 
         <motion.div layout className={s.megaWrapper}>
-
+          <AnimatePresence>
           <motion.div layout className={s.wrapper}>
-
 
             {
               opened && <motion.ul
@@ -28,7 +27,8 @@ const LayoutTask = () => {
                 variants={{
                   visible: {
                     transition: {
-                      staggerChildren: 0.1
+                      staggerChildren: 0.1,
+                      delayChildren: .2
                     }
                   },
                   hidden: {
@@ -71,9 +71,10 @@ const LayoutTask = () => {
             </motion.div>
 
           </motion.div>
+          </AnimatePresence>
         </motion.div>
       </motion.div>
-    </AnimatePresence>
+    
   );
 };
 

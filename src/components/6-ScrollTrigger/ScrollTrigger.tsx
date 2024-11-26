@@ -13,31 +13,32 @@ const ScrollTrigger = () => {
       <div className='homeLinkDiv'>
         <Link to="/">Home</Link>
       </div>
+      
+      
       <div className={s.spacer}></div>
 
-      <motion.div
-        initial={{
-          x: 500
-        }}
-
-        transition={{
-          duration: 1,
-          type: 'spring'
-        }}
-
-        viewport={{
-          amount: .999,
-          margin: "0px 0px -50% 0px"
-        }}
-
-        // animate={{x: 500}}
-        whileInView={{
-          x: 0
-        }}
-
-        className={s.motionDiv}>
-        ScrollTrigger
-      </motion.div>
+      {/*<motion.div*/}
+      {/*  initial={{*/}
+      {/*    x: 500*/}
+      {/*  }}*/}
+      {/*  transition={{*/}
+      {/*    duration: 1,*/}
+      {/*    type: 'spring'*/}
+      {/*  }}*/}
+      
+      {/*  viewport={{*/}
+      {/*    amount: .999,*/}
+      {/*    margin: "0px 0px -50% 0px"*/}
+      {/*  }}*/}
+      
+      {/*  // animate={{x: 500}}*/}
+      {/*  whileInView={{*/}
+      {/*    x: 0*/}
+      {/*  }}*/}
+      
+      {/*  className={s.motionDiv}>*/}
+      {/*  ScrollTrigger*/}
+      {/*</motion.div>*/}
       <div className={s.spacerMini}>scroll down a little bit more</div>
 
       <motion.ul

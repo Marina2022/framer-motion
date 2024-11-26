@@ -45,7 +45,7 @@ const Layout = () => {
         <motion.button
           layout
           type="button"
-          style={{width: sent ? "calc(100% - 20px)" : "80px", borderRadius: 20}}
+          style={{gridColumn: sent ? "1 / span 2" : "2", borderRadius: 20}}
           onClick={sendHandler}
           className={s.btn}>
           <motion.span layout style={{width: 20}}>hhh</motion.span>

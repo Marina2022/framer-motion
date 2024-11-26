@@ -44,6 +44,12 @@ const MyIndex = () => {
               </li>                    
               <li>
                 <Link to="/LayoutTask">LayoutTask</Link>
+              </li>                   
+              <li>
+                <Link to="/SharedLayout">SharedLayout</Link>
+              </li>                 
+              <li>
+                <Link to="/MainSong">MainSong</Link>
               </li>            
             </ul>
           </nav>
